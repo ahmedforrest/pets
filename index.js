@@ -17,7 +17,7 @@ app.use(express.json());
 // Define a GET route for the root URL ('/')
 app.get('/', (req, res) => {
   // Send a plain text response of 'Hello World!'
-  res.send('Hello World!');
+  res.send('welcome to the pets API check /pets and perform your CRUD');
 });
 
 // Start the server and have it listen on the specified port
